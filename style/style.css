@@ -4,14 +4,22 @@
   width: 900px;
   margin: auto;
   padding-top: 75px;
-  padding-left: 162px;
 }
+
 .main-menu-list {
   text-transform: uppercase;
   list-style: none;
+  font-family: "Playfair Display", "Arial", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  line-height: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #626262;
 }
 .main-menu-item {
   display: inline-block;
+  margin-right: 120px;
 }
 .main-menu-item a {
   text-decoration: none;
@@ -20,23 +28,16 @@
 .main-menu-item a:hover {
   color: #03a9f4;
 }
-.lifestyle {
-  margin-right: 120px;
+.main-menu-item:last-child {
+  margin-right: 0px;
 }
-.photodiary {
-  margin-right: 103px;
-}
-.music {
-  margin-right: 95px;
-}
-
 section {
   width: 900px;
   margin: auto;
   margin-bottom: 134px;
   font-size: 0px;
 }
-.lifestyle-second-lifestyle {
+section:last-child {
   margin-bottom: 53px;
 }
 article:nth-child(even) {
@@ -83,12 +84,16 @@ button {
   margin-bottom: 70px;
   font-size: 20px;
   font-family: "Playfair Display", "Arial", sans-serif;
-
   font-weight: 400;
   line-height: 24px;
   height: 60px;
   width: 164px;
-  box-sizing: 1px;
+  color: #626262;
   background-color: #ffffff;
-  border: solid #626262;
+  border: solid #626262 1px;
+}
+button:hover {
+  color: #03a9f4;
+  border: solid #03a9f4 2px;
+  font-weight: 700;
 }
